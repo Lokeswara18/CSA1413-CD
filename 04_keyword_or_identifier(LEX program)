@@ -12,3 +12,12 @@ int main()
 {
 while(yylex());
 } 
+
+
+SAMPLE C PROGRAM
+#include<stdio.h> 
+void main()
+{
+int a,b,c = 30; 
+printf("hello");
+}
