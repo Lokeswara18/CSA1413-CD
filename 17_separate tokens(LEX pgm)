@@ -18,3 +18,11 @@ yyin=fopen(argv[1],"r");
 yyout=fopen("output.c","w");
 yylex();
 }
+
+Input Source Program: (sample.c)
+#include<stdio.h> 
+void main()
+{
+int a,b,c = 30; 
+printf("hello");
+}
