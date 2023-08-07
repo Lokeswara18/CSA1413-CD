@@ -18,3 +18,13 @@ yylex();
 printf("Number of macros defined = %d\n", nmacro); 
 printf("Number of header files included = %d\n", nheader); 
 }
+
+SAMPLE C PROGRAM
+#define PI 3.14
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c = 30;
+printf("hello");
+}
