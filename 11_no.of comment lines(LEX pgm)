@@ -14,3 +14,16 @@ yyout=fopen("output.c","w");
 yylex();
 printf("the number of comment lines=%d\n",nc);
 } 
+
+
+SAMPLE C PROGRAM
+#include<stdio.h> 
+int main()
+{
+int a,b,c; /*varible declaration*/
+printf(“enter two numbers”);
+scanf(“%d %d”,&a,&b);
+c=a+b;//adding two numbers
+printf(“sum is %d”,c);
+return 0;
+}
